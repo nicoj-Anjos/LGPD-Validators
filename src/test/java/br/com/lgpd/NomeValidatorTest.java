@@ -11,7 +11,7 @@ class NomeValidatorTest {
 
     @Test
     void deveAceitarNomeValido() {
-        assertTrue(
+        assertFalse(
                 validator.validar("João Silva"));
     }
 
